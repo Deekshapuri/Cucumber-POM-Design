@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "/Users/deeksha/eclipse-workspace/CucumberPOM/src/main/java/com/qa/features/shopDemoQA.feature", 
+		features = "C:\\Users\\deepuri\\Cucumber-POM-Design\\src\\main\\java\\com\\qa\\features", 
 		//the path of the feature files
 		glue = {"com/qa/StepDefinitions"}, 
 		//the path of the step definition files or give direct the package name
