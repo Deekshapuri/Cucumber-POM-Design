@@ -19,8 +19,8 @@ public class TestBase {
 	{
 		try {
 			prop = new Properties();
-			FileInputStream fis = new FileInputStream("/Users/deeksha/eclipse-workspace/CucumberPOM"
-					+ "/src/main/java/com/qa/config/config.properties");
+			FileInputStream fis = new FileInputStream("C:\\Users\\deepuri\\FirstFrameworkDesign\\"
+					+ "src\\main\\java\\com\\crm\\qa\\config\\config.properties");
 			prop.load(fis);
 		} 
 		catch (IOException e) {
